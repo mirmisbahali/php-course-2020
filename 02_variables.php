@@ -33,9 +33,13 @@ echo gettype($salary) . '<br>';
 // Print type of the variable
 
 // Variable checking functions
-
+is_string($name);
+is_int($age);
+is_bool($isMale);
+is_double($height);
 // Check if variable is defined
-
+isset($name); // true
+isset($address) // false
 // Constants
 
 // Using PHP built-in constants
