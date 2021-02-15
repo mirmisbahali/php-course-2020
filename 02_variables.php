@@ -39,7 +39,9 @@ is_bool($isMale);
 is_double($height);
 // Check if variable is defined
 isset($name); // true
-isset($address) // false
+isset($address); // false
 // Constants
-
+define('PI', 3.14);
+echo PI.'<br>';
 // Using PHP built-in constants
+
