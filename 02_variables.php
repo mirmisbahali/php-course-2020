@@ -19,6 +19,12 @@ echo $height.'<br>';
 echo $salary.'<br>';
 
 // Print types of the variables
+echo gettype($name) . '<br>';
+echo gettype($age) . '<br>';
+
+echo gettype($isMale) . '<br>';
+echo gettype($height) . '<br>';
+echo gettype($salary) . '<br>';
 
 // Print the whole variable
 
