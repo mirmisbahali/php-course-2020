@@ -44,4 +44,5 @@ isset($address); // false
 define('PI', 3.14);
 echo PI.'<br>';
 // Using PHP built-in constants
-
+echo SORT_ASC.'<br>';
+echo PHP_INT_MAX.'<br>';
