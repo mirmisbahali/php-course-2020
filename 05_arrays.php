@@ -52,7 +52,9 @@ echo '</pre>';
 echo implode('&', $fruits);
 
 // Check if element exist in the array
-
+echo '<pre>';
+var_dump(in_array('Mango', $fruits));
+echo '</pre>'; 
 // Search element index in the array
 
 // Merge two arrays
