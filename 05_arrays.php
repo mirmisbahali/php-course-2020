@@ -38,9 +38,15 @@ echo '<pre>';
 var_dump($fruits);
 echo '</pre>'; 
 // Remove element from the beginning of the array
-
+array_shift($fruits);
+echo '<pre>';
+var_dump($fruits);
+echo '</pre>'; 
 // Split the string into an array
-
+$string = "Hello, world";
+echo '<pre>';
+var_dump(explode(',', $string));
+echo '</pre>'; 
 // Combine array elements into string
 
 // Check if element exist in the array
