@@ -49,6 +49,8 @@ var_dump(explode(',', $string));
 echo '</pre>'; 
 // Combine array elements into string
 
+echo implode('&', $fruits);
+
 // Check if element exist in the array
 
 // Search element index in the array
